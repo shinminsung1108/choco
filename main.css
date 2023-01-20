@@ -1,0 +1,153 @@
+/* body {
+    background-color: black;
+    opacity: 0.3;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: HSSaemaul-Regular;
+}
+
+body {
+    background-color: #F3E2A9;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'HSSaemaul-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/HSSaemaul-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#label {
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 7rem;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#test {
+    height: 100vh;
+}
+
+#wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chooseButton {
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    background-color: white;
+    cursor: pointer;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: #61380B;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#chooseButton:hover, #chooseButton2:hover {
+    width: 22rem;
+    height: 12rem;
+    font-size: 5rem;
+}
+
+#chooseButton2 {
+    width: 20rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    font-size: 3rem;
+    background-color: white;
+    cursor: pointer;
+    border: 10px solid black;
+    border-radius: 20px;
+    background-color: bisque;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#result {
+    margin: auto;
+}
+#myProgress {
+    position: relative;
+    width: 80%;
+    height: 30px;
+    background-color: #ddd;
+    margin: auto;
+    border: 8px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#myBar {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #3B240B;
+    border-radius: 10px;
+
+}
+
+#myProgress_2 {
+    position: relative;
+    width: 80%;
+    height: 30px;
+    background-color: #ddd;
+    margin-top: 10px;
+    margin: auto;
+    border: 8px solid black;
+    border-radius: 20px;
+}
+
+#myBar_2 {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #F5ECCE;
+    border-radius: 20px;
+
+}
+
+#label_2 {
+    text-align: center;
+    line-height: 30px;
+    color: black;
+}
+
+#result {
+    /* margin-top: 50rem; */
+    height: 1000px;
+}
